@@ -15,4 +15,5 @@
 ** In this task of designing a alu i have written verilog code and test bench code for a basic alu supporting operations such as ADDITION,SUBTRACTION,AND,OR,and NOT and I have used eda playground for writing the code and for the simulation of code**
 
 *simulation*:
-![Image](https://github.com/ustachments/assets/3fa3fbf4-7d66-4b68-a7cb-4f8f9cbf8e17)er-at
+
+[Image](https://github.com/ustachments/assets/3fa3fbf4-7d66-4b68-a7cb-4f8f9cbf8e17)er-at
