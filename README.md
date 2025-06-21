@@ -12,7 +12,7 @@
 
 *MENTOR*: NEELA SANTOSH
 
-** In this task of designing a alu i have written verilog code and test bench code for a basic alu supporting operations such as ADDITION,SUBTRACTION,AND,OR,and NOT and I have used eda playground for writing the code and for the simulation of code**
+** In this task of designing a alu i have written verilog code and test bench code for a basic alu supporting operations such as ADDITION,SUBTRACTION,AND,OR,and NOT and I have used eda playground for writing the code and for the simulation of code and In edaplayground I have used simulator as Icarus verilog 12.0 and I have choosed run option as open EPWave after run for the simulation.**
 
 *simulation*:
 
