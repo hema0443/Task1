@@ -1,0 +1,37 @@
+module alu_tb;
+
+    reg [7:0] A, B;
+    reg [2:0] OP;
+    wire [7:0] RESULT;
+
+    alu uut (.A(A), .B(B), .OP(OP), .RESULT(RESULT));
+
+    initial begin
+        $dumpfile("alu.vcd");
+        $dumpvars(0, alu_tb);
+
+        // Test addition
+        A = 8'd10; B = 8'd20; OP = 3'b000;
+                                                             
+
+                           
+        A = 8'd30; B = 8'd10; OP = 3'b001;
+        #10 $display("Subtraction: %d - %d = %d", A, B, RESULT);
+
+        // Test AND
+        A = 8'b1100; B = 8'b1010; OP = 3'b010;
+                                                        
+
+                  
+        A = 8'b1100; B = 8'b1010; OP = 3'b011;
+        #10 $display("OR: %b | %b = %b", A, B, RESULT);
+
+        // Test NOT
+        A = 8'b1100; OP = 3'b100;
+        #10 $display("NOT: ~%b = %b", A, RESULT);
+
+        #10 $finish;
+    end
+
+endmodule
+
